@@ -4,7 +4,7 @@ Datasets are intentionally **not redistributed** in this repository.
 
 ## BeliN
 
-The scripts can load the public BeliN dataset directly from Hugging Face using the dataset identifier configured in `config/experiment_settings.yaml` (`osama39/BNHG`). You may also pass a local CSV.
+The scripts can load the public [BeliN dataset](https://github.com/akabircs/BeliN) directly from Hugging Face using the dataset identifier configured in `config/experiment_settings.yaml` (`osama39/BNHG`). You may also pass a local CSV.
 
 ## Shironaam
 
