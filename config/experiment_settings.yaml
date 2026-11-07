@@ -1,0 +1,36 @@
+models:
+  gemini:
+    identifier: gemini-2.0-flash
+    credential_env: GEMINI_API_KEY
+  llama:
+    identifier: meta-llama/Llama-3.3-70B-Instruct-Turbo-Free
+    provider: Together AI
+    credential_env: TOGETHER_API_KEY
+  gpt4o:
+    identifier: gpt-4o
+    credential_env: OPENAI_API_KEY
+
+decoding:
+  temperature: 0.7
+  top_p: 0.9
+  belin_max_output_tokens: 50
+  shironaam_max_output_tokens: 50
+
+belin:
+  huggingface_dataset: osama39/BNHG
+  context_scopes: [1, 2, 3, 4, 5, full]
+  prompting_languages: [bnap, xlp]
+  prompt_variants: [baseline, multigen]
+  shots: [0, 1, 2, 3]
+  multigen_cues: [sentiment, category, aspect]
+
+shironaam:
+  context_scope: 3
+  prompting_language: xlp
+  prompt_variant: multigen
+  shots: 3
+  multigen_cues: [tags, category, image_caption]
+
+semantic_alignment:
+  embedding_model: banglagov/banBERT-Base
+  similarity: cosine
