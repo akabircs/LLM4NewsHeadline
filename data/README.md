@@ -8,7 +8,7 @@ The scripts can load the public [BeliN dataset](https://github.com/akabircs/Beli
 
 ## Shironaam
 
-Obtain the Shironaam dataset from https://github.com/dialect-ai/BenHeadGen and place the required split locally, for example:
+Obtain the [Shironaam dataset](https://github.com/dialect-ai/BenHeadGen) and place the required split locally, for example:
 
 - `data/shironaam_train.csv` for the semantic-alignment analysis.
 - `data/shironaam_test.csv` for the second-benchmark headline-generation experiment.
