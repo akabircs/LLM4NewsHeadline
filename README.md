@@ -1,4 +1,4 @@
-This repository contains the cleaned, anonymous source code accompanying the manuscript [**“When Less Is Enough: Context Selection and Prompting Strategies for Bengali News Headline Generation.”**](https://arxiv.org/abs/2608.15879)
+This repository contains the source code accompanying the manuscript [**“When Less Is Enough: Context Selection and Prompting Strategies for Bengali News Headline Generation.”**](https://arxiv.org/abs/2608.15879)
 
 The code was consolidated from the experimental notebooks into parameterized scripts so that the paper’s analyses can be audited without exposing API credentials, notebook outputs, personal paths, or platform-specific metadata.
 
