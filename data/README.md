@@ -8,9 +8,9 @@ The scripts can load the public BeliN dataset directly from Hugging Face using t
 
 ## Shironaam
 
-Obtain the Shironaam dataset from the source cited in the manuscript and place the required split locally, for example:
+Obtain the Shironaam dataset from https://github.com/dialect-ai/BenHeadGen and place the required split locally, for example:
 
-- `data/shironaam_train.csv` for the supplementary semantic-alignment analysis.
+- `data/shironaam_train.csv` for the semantic-alignment analysis.
 - `data/shironaam_test.csv` for the second-benchmark headline-generation experiment.
 
 The scripts accept configurable column names and do not require the data to be stored in the repository.
